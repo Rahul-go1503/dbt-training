@@ -16,10 +16,10 @@ renamed as (
         nullif(trim(name), '') as customer_name
 
     from source
-    union all
-    select 
-        null as customer_id,
-        null as customer_name
+    -- union all
+    -- select 
+    --     null as customer_id,
+    --     null as customer_name
 
 )
 
