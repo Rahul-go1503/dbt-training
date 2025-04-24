@@ -1,0 +1,8 @@
+models:
+  - name: stg_ecom__raw_products
+    latest_version: 2
+    versions:
+      - v : 2
+        # alias : 'stg_ecom_raw_products'
+        # defined_in : stg_ecom_raw_products_v1
+      - v : 1
